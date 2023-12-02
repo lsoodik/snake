@@ -1,0 +1,56 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #c498d5;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 60px;
+}
+
+.container{
+	width: 500px;
+	height: 500px;
+	background-color: #501461;
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+.scores{
+	color: #5F9900;
+	font-size: 20px;
+	font-weight: 600;
+	font-family: sans-serif;
+	display: flex;
+	justify-content: space-around;
+	padding:0 0 15px 0;
+}
+/* #5C8600 цвет змейки
+	#BCA026 цвет цели */
+
+.playingArea{
+	width: 100%;
+	height: 100%;
+	background-color: #390148;
+	display: grid;
+	grid-template-columns: repeat(20,1fr);
+	grid-template-rows: repeat(20,1fr);
+}
+
+.food{
+	background-color: #BCA026;
+}
+
+.head{
+	background-color:  #5C8600;
+}
+
+span {
+	display: block;
+	margin-top: 20px;
+}
+
